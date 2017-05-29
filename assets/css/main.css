@@ -1,0 +1,34 @@
+.img-conduce{
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+}
+.fondo-section-conduce{
+  position: relative;
+  bottom: 240px;
+}
+.fondo-conduce{
+  width: 100%;
+  height: 670px;
+  background-size: cover;
+  background-image: url(../img/conduce.jpg);
+}
+.padding-section{
+  padding: 0;
+}
+.texto-conduce{
+  position: relative;
+  z-index: 1;
+  height: 450px;
+  color: white;
+  background-color: rgba(51, 26, 73,0.2);
+  bottom: 450px;
+  left: 350px;
+  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.button-conduce{
+  background-color: #fcb425;
+  color: white;
+}

@@ -1,0 +1,64 @@
+.image{
+  background-image: url(../img/taxi.jpg);
+  width: 100%;
+  height: 1920px;
+  background-size: cover;
+  position: relative;
+}
+.bottom-img{
+  bottom: 1240px;
+}
+
+.height-section{
+  width: 100%;
+  height: 1800px;
+  background-size: cover;
+}
+.color-white{
+  color: white;
+}
+.background-naranja{
+  background-color: #f7b617;
+}
+.padding-hero{
+  padding: 35px;
+}
+
+.margin-0{
+  margin: 0;
+}
+.padding-0{
+  padding: 0;
+}
+.style-input{
+  background-color: #f7b617;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+}
+.form-group{
+  height: 73px;
+}
+.padding-input{
+  padding-top: 40px;
+}
+h3{
+  padding-right: 10px;
+}
+.style-h3-hero{
+  display: inline-block;
+}
+.img-logo-blanco{
+  width: 80px;
+}
+.style-button{
+  position: relative;
+  top: 35px;
+}
+.hero-style{
+  z-index: 1;
+  left: 787px;
+  bottom: 1780px;
+  height: 350px;
+}

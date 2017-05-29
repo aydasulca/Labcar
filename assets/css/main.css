@@ -1,0 +1,39 @@
+div#map{
+  height: 400px;
+  width: 450px;
+  background-size: cover;
+  position: relative;
+}
+.fondo-naranja{
+  background-color: #f7b617;
+}
+.style-container-tarifa{
+  padding: 30px;
+}
+.container-map{
+  position: relative;
+  left: 100px;
+  border: 1px solid white;
+  padding: 10px;
+  width: 470px;
+}
+.input-tarifa-section{
+  position: relative;
+  top: 30px;
+  left: 50px;
+  color: white;
+}
+.input-tarifa{
+  background-color: #f7b617;
+  color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+.button-tarifa{
+  position: relative;
+  top: 20px;
+  left: 80px;
+}

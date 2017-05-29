@@ -12,7 +12,22 @@
   <section>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12 fondo-naranja style-container-tarifa">
+        <div class="col-xs-12 fondo-naranja style-container-tarifa visible-xs">
+          <div class="col-xs-12 style-container-movile">
+            <h2>Tarifas</h2>
+            <h4>Consulta las tarifas LabCar aqui</h4>
+            <div class="input-group">
+              <span class="glyphicon glyphicon-record" id="basic-addon1"></span>
+              <input type="text" class="input-tarifa-movile" placeholder="Ingrese su punto de partida" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group">
+              <span class="glyphicon glyphicon-send" id="basic-addon1"></span>
+              <input type="text" class="input-tarifa-movile" placeholder="Ingrese su destino" aria-describedby="basic-addon1">
+            </div>
+            <button class="btn btn-default button-tarifa-movile " type="button" name="button"><strong>¡TRAZAR RUTA!</strong></button>
+          </div>
+        </div>
+        <div class="col-md-12 fondo-naranja style-container-tarifa hidden-xs">
           <div class="col-md-6 input-tarifa-section">
             <h2>Tarifas</h2>
             <h4>Consulta las tarifas LabCar aqui</h4>
@@ -26,7 +41,7 @@
             </div>
             <button class="btn btn-default button-tarifa" type="button" name="button"><strong>¡TRAZAR RUTA!</strong></button>
           </div>
-          <div class="col-md-6 container-map">
+          <div class="col-md-6 container-map hidden-xs">
             <div id="map"></div>
           </div>
         </div>

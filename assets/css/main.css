@@ -37,3 +37,21 @@ div#map{
   top: 20px;
   left: 80px;
 }
+.style-container-movile{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+}
+.input-tarifa-movile{
+  background-color: #f7b617;
+  color: white;
+  border: 1px solid white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.button-tarifa-movile{
+  position: relative;
+  top: 10px;
+  left: 40px;
+}

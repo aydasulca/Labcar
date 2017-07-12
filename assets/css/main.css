@@ -1,255 +1,215 @@
-nav{
-  z-index: 1;
-  background-color: white;
-  height: 100px;
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.borde-white{
+  border: 1px solid white;
+}
+.ff-raleway{
+  font-family: 'Raleway', sans-serif;
+}
+.bg-orange{
+  background-color: #F7B617;
+}
+.c-white{
   color: white;
 }
-.image{
+/*NAVBAR*/
+.navbar-toggle{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.navbar-default .navbar-brand{
+    color: #f7b617;
+    font-weight: 600;
+}
+.navbar-default .navbar-brand i{
+    color: gray;
+    font-weight: 600;
+}
+.navbar-nav>li>a {
+    padding-top: 30px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: black;
+}
+.navbar-default{
+    background-color: white;
+    border-color: white;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-header .size-logo img{
+    padding: 20px;
+}
+.navbar-default .navbar-toggle:hover{
+    background-color: white;
+}
+.navbar-default .navbar-toggle{
+    border: 0;
+}
+/*HERO*/
+#hero{
   background-image: url(../img/taxi.jpg);
-  width: 100%;
-  height: 1920px;
+  background-position: 100% 92%;
   background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  height: 105vh;
   position: relative;
 }
-.bottom-img{
-  position: relative;
-  bottom: 1240px;
+.box-hero{
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  top: 60px;
 }
-
-.height-section{
-  width: 100%;
-  height: 1800px;
-  background-size: cover;
-}
-.color-white{
-  color: white;
-}
-.background-naranja{
-  background-color: #f7b617;
-}
-.padding-hero{
-  padding: 35px;
-}
-.padding-hero-movile{
-  padding: 20px;
-  height: 260px;
-}
-.margin-0{
-  margin: 0;
-}
-.padding-0{
-  padding: 0;
-}
-.style-input{
-  background-color: #f7b617;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-
-}
-.form-group{
-  height: 73px;
-}
-.padding-input{
-  padding-top: 40px;
-}
-h3{
-  padding-right: 10px;
-}
-.style-h3-hero{
-  display: inline-block;
-}
-.img-logo-blanco{
+.box-hero img{
   width: 80px;
 }
-.style-button{
+.box-hero input{
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 10px;
+  outline: none;
+}
+.box-hero h2{
+  line-height: 0.4;
+}
+.btn-hero{
+  margin: 20px 0;
+}
+.texto-hero{
+  font-size: 2rem;
+  font-weight: 600;
+}
+.texto-hero img{
+  margin-left: 5px;
+}
+.texto-hero h5{
+  font-weight: 600;
+  margin-top: 17px;
+}
+.title{
+  margin : 40px 0;
+}
+/*HERO*/
+/*------information---*/
+section#informacion{
   position: relative;
-  top: 35px;
-}
-.style-button-movile{
-  position: relative;
-  top: 20px;
-}
-.hero-style{
-  z-index: 1;
-  left: 787px;
-  bottom: 1780px;
-  height: 350px;
-}
-.img-responsive{
-  height: 580px;
-}
-.hero-style-movile{
-  z-index: 1;
-  bottom: 410px;
-  left: 80px;
-}
-.style-section-informacion{
-  border: 2px solid white;
-  border-left: none;
-  color: white;
-  font-size: 18px;
-  height: 500px;
-  padding: 40px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-.botton-section-1{
-  position: relative;
-  bottom: 1600px;
-}
-.botton-section-1-movile{
-  position: relative;
-  bottom: 280px;
-}
-.botton-section-2{
-  position: relative;
-  bottom: 1600px;
-  z-index: -1;
-}
-.botton-section-2-movile{
-  position: relative;
-  bottom: 285px;
-}
-.botton-section-3{
-  position: relative;
-  bottom: 2300px;
-}
-.botton-section-3-movile{
-  position: relative;
-  bottom: 585px;
-}
-.padding-none{
-  padding: 0;
-}
-.style-img-celular{
-  width: 180px;
-  height: 200px;
-  background-size: cover;
-}
-.section-informacion-movile{
-  border: 2px solid white;
-  margin: 10px;
-  color: white;
-  position: relative;
-  right: 10px;
   padding-top: 30px;
-  padding-left: 50px;
-  height: 330px;
-
+  padding-bottom: 10px;
 }
-.color-white{
-  color: white;
+section#informacion h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3rem;
 }
-.style-section-movile{
-  height: 420px;
+section#informacion p{
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 3rem;
 }
-.img-conduce{
-  width: 100%;
-  height: 450px;
-  background-size: cover;
-}
-.img-conduce-movile{
-  width: 100%;
-  height: 300px;
-  background-size: cover;
-}
-.fondo-section-conduce{
-  position:relative;
-  bottom: 240px;
-}
-.fondo-conduce{
-  width: 100%;
-  height: 670px;
-  background-size: cover;
-  background-image: url(../img/conduce.jpg);
-}
-.padding-section{
-  padding: 0;
-}
-.texto-conduce{
-  position: relative;
-  z-index: 1;
-  height: 450px;
-  color: white;
-  background-color:rgba(51, 26, 73,0.2);
-  bottom: 450px;
-  left: 350px;
-  padding-top: 120px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.button-conduce{
-  background-color: #fcb425;
-  color: white;
-}
-.texto-conduce-movile{
-  width: 100%;
-  height: 300px;
-  z-index: 1;
-  background-color:rgba(51, 26, 73,0.3);
-  padding-top: 60px;
-  color: white;
-  position: relative;
-  bottom: 300px;
-}
-div#map{
-  height: 400px;
-  width: 450px;
-  background-size: cover;
-  position: relative;
-}
-.fondo-naranja{
-  background-color: #f7b617;
-}
-.style-container-tarifa{
-  padding: 30px;
-}
-.container-map{
-  position: relative;
-  left: 100px;
-  border: 1px solid white;
-  padding: 10px;
-  width: 470px;
-}
-.input-tarifa-section{
-  position: relative;
-  top: 30px;
-  left: 50px;
-  color: white;
-}
-.input-tarifa{
-  background-color: #f7b617;
-  color: white;
-  border: 1px solid white;
-  margin: 10px;
-  padding: 10px;
+#informacion img{
   width: 300px;
-  border-radius: 5px;
 }
-.button-tarifa{
-  position: relative;
-  top: 20px;
-  left: 80px;
+strong{
+  font-weight: 100;
 }
-.style-container-movile{
-  padding-top: 60px;
-  padding-bottom: 60px;
+.row-left{
+  align-items: flex-start;
+  display: flex;
+  justify-content:flex-start;
+  padding: 3rem 18rem;
+  transform: translateX(-20%);
+}
+.pb{
+  padding-bottom: 20px;
+}
+/*----information---->*/
+/*Conduce*/
+#driver{
+  background-image: url("../img/conduce.jpg");
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+#driver a{
+  border: none;
+}
+#driver div{
+  align-items: flex-start;
+  background-color: rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+/*conduce
+/*Map*/
+#map-route{
+  padding: 20px 0;
+}
+#map-route h4{
+  padding: 20px 0;
+}
+#map{
+  height: 30rem;
+}
+.form-control:focus {
+  border-color: white;
+  box-shadow: inset 0 0px 0px rgba(0,0,0,.075), 0 0 0px white;
+}
+.form-control::-webkit-input-placeholder {
   color: white;
 }
-.input-tarifa-movile{
-  background-color: #f7b617;
-  color: white;
-  border: 1px solid white;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 5px;
+#total-rate{
+  color: black;
 }
-.button-tarifa-movile{
-  position: relative;
-  top: 10px;
-  left: 40px;
-}
-footer{
+/*MAP*/
+#footer{
   background-color: #2b2b2b;
+  color: #ffffff;
+  padding: 50px 0;
+}
+#footer a{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.flex-end{
+  align-items: flex-end;
+  display: flex;
+}
+.flex-end img{
+  cursor: pointer;
+  margin-top: 40px;
+}
+#footer .nav>li>a {
+  padding: 10px 1px;
+}
+/*footer*/
+@media(max-width: 760px){
+  .box-hero{
+    top: 125px;
+  }
+  .navbar-header .size-logo img{
+    margin-left: 55px;
+    width: 130px;
+  }
+  .row-left{
+    margin:4rem 2rem 2rem 2rem;
+    padding: 4rem;
+    padding-top: 6rem;
+    transform: none;
+  }
+  .flex-end{
+    align-items: flex-start;
+  }
+  .flex-end img{
+    width: 150px;
+  }
+
+.nav>li>a:hover{
 }
